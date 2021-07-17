@@ -1,6 +1,12 @@
 # Charger
 ro.charger.enable_suspend=1
 
+# Dalvik
+pm.dexopt.install=speed-profile
+pm.dexopt.bg-dexopt=speed-profile
+pm.dexopt.boot=verify
+pm.dexopt.first-boot=quicken
+
 # Display
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
 ro.surface_flinger.set_display_power_timer_ms=1000
