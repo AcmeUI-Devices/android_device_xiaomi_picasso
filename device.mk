@@ -271,9 +271,7 @@ PRODUCT_BOOT_JARS += \
     org.ifaa.android.manager
 
 # IPACM
-PRODUCT_PACKAGES += \
-    ipacm \
-    IPACM_cfg.xml
+$(call inherit-product, vendor/qcom/opensource/data-ipa-cfg-mgr/ipacm_vendor_product.mk)
 
 # IR
 PRODUCT_PACKAGES += \
