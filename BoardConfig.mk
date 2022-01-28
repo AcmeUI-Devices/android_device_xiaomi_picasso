@@ -47,6 +47,7 @@ TARGET_KERNEL_ADDITIONAL_FLAGS := DTC_EXT=$(shell pwd)/prebuilts/misc/$(HOST_OS)
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/xiaomi/picasso
 TARGET_KERNEL_CONFIG := vendor/picasso_user_defconfig
+KERNEL_SUPPORTS_LLVM_TOOLS := true
 
 # Platform
 TARGET_BOARD_PLATFORM := lito
