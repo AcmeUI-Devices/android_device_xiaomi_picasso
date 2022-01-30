@@ -300,6 +300,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/sec_config:$(TARGET_COPY_OUT_VENDOR)/etc/sec_config
 
+# LibXML2
+PRODUCT_PACKAGES += \
+    libxml2 \
+    libxml2.vendor
+
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \
