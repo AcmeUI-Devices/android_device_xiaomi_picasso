@@ -8,5 +8,6 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/evolution_picasso.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_picasso-userdebug \
-    evolution_picasso-eng
+    evolution_picasso-eng \
+    evolution_picasso-user \
+    evolution_picasso-userdebug
