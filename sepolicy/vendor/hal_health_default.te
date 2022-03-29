@@ -1,0 +1,2 @@
+allow hal_power_default sysfs:dir { getattr open read };
+allow hal_power_default sysfs:file { getattr open read };
