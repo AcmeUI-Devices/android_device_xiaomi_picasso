@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_picasso.mk
+    $(LOCAL_DIR)/kscope_picasso.mk
 
 COMMON_LUNCH_CHOICES := \
-    evolution_picasso-eng \
-    evolution_picasso-user \
-    evolution_picasso-userdebug
+    kscope_picasso-eng \
+    kscope_picasso-user \
+    kscope_picasso-userdebug
