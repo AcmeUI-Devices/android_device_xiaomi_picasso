@@ -135,6 +135,7 @@ TARGET_TAP_TO_WAKE_NODE := "/sys/touchpanel/double_tap"
 
 # QCOM
 BOARD_USES_QCOM_HARDWARE := true
+OVERRIDE_QCOM_HARDWARE_VARIANT := sm8250-legacy
 
 # Recovery
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
