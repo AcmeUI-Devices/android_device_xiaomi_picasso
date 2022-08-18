@@ -430,6 +430,10 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-service \
     libsensorndkbridge
 
+# Shims
+PRODUCT_PACKAGES += \
+    lib-watermarkshim
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
